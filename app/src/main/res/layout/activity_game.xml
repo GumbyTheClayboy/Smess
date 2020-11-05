@@ -20,6 +20,503 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginStart="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_a7"
+        android:contentDescription="Square A7" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_b1_b7"
+        android:contentDescription="Square B7" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_c7_e3_e5"
+        android:contentDescription="Square C7" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_d7"
+        android:contentDescription="Square D7" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_e7"
+        android:contentDescription="Square E7" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_f7"
+        android:contentDescription="Square F7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_g1_g7"
+        android:contentDescription="Square G7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/smess_h7"
+        android:contentDescription="Square H7" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginStart="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/smess_a2_a6"
+        android:contentDescription="Square A6" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/smess_b6"
+        android:contentDescription="Square B6" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/smess_c6"
+        android:contentDescription="Square C6" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/smess_d6_f6"
+        android:contentDescription="Square D6" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/smess_e6"
+        android:contentDescription="Square E6" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/smess_d6_f6"
+        android:contentDescription="Square F6" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/smess_g6"
+        android:contentDescription="Square G6" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/smess_h2_h6"
+        android:contentDescription="Square H6" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginStart="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/smess_a3_a5"
+        android:contentDescription="Square A5" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/smess_b3_b5"
+        android:contentDescription="Square B5" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/smess_c3_c5"
+        android:contentDescription="Square C5" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/smess_d3_d5_f1"
+        android:contentDescription="Square D5" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/smess_c7_e3_e5"
+        android:contentDescription="Square E5" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/smess_f3_f5"
+        android:contentDescription="Square F5" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/smess_g3_g5"
+        android:contentDescription="Square G5" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/smess_h3_h5"
+        android:contentDescription="Square H5" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginStart="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/smess_a4"
+        android:contentDescription="Square A4" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:srcCompat="@drawable/smess_b4"
+        android:contentDescription="Square B4" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:srcCompat="@drawable/smess_c4"
+        android:contentDescription="Square C4" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        app:srcCompat="@drawable/smess_d4"
+        android:contentDescription="Square D4" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/smess_e4"
+        android:contentDescription="Square E4" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView29"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@drawable/smess_f4"
+        android:contentDescription="Square F4" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:srcCompat="@drawable/smess_g4"
+        android:contentDescription="Square G4" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView31"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/smess_h4"
+        android:contentDescription="Square H4" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginStart="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/smess_a3_a5"
+        android:contentDescription="Square A3" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/smess_b3_b5"
+        android:contentDescription="Square B3" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/smess_c3_c5"
+        android:contentDescription="Square C3" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView41"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:srcCompat="@drawable/smess_d3_d5_f1"
+        android:contentDescription="Square D3" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView42"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:srcCompat="@drawable/smess_c7_e3_e5"
+        android:contentDescription="Square E3" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView43"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30"
+        app:srcCompat="@drawable/smess_f3_f5"
+        android:contentDescription="Square F3" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView44"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31"
+        app:srcCompat="@drawable/smess_g3_g5"
+        android:contentDescription="Square G3" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView45"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        app:srcCompat="@drawable/smess_h3_h5"
+        android:contentDescription="Square H3" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginStart="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33"
+        app:srcCompat="@drawable/smess_a2_a6"
+        android:contentDescription="Square A2" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView47"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34"
+        app:srcCompat="@drawable/smess_b2"
+        android:contentDescription="Square B2" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView48"
+        app:layout_constraintTop_toBottomOf="@+id/imageView41"
+        app:srcCompat="@drawable/smess_c2_e2" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView49"
+        app:layout_constraintTop_toBottomOf="@+id/imageView42"
+        app:srcCompat="@drawable/smess_d2" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView50"
+        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:srcCompat="@drawable/smess_c2_e2" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toBottomOf="@+id/imageView44"
+        app:srcCompat="@drawable/smess_f2" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView52"
+        app:layout_constraintTop_toBottomOf="@+id/imageView45"
+        app:srcCompat="@drawable/smess_g2" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView53"
+        app:layout_constraintTop_toBottomOf="@+id/imageView46"
+        app:srcCompat="@drawable/smess_h2_h6" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginStart="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView47"
+        app:srcCompat="@drawable/smess_a1" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView55"
+        app:layout_constraintTop_toBottomOf="@+id/imageView48"
+        app:srcCompat="@drawable/smess_b1_b7" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView56"
+        app:layout_constraintTop_toBottomOf="@+id/imageView49"
+        app:srcCompat="@drawable/smess_c1" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
+        app:srcCompat="@drawable/smess_d1" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView58"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51"
+        app:srcCompat="@drawable/smess_e1" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView59"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52"
+        app:srcCompat="@drawable/smess_d3_d5_f1" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView60"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        app:srcCompat="@drawable/smess_g1_g7" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        app:layout_constraintStart_toEndOf="@+id/imageView61"
+        app:layout_constraintTop_toBottomOf="@+id/imageView54"
+        app:srcCompat="@drawable/smess_h1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
