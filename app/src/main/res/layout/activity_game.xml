@@ -25,6 +25,7 @@
         android:layout_width="50dip"
         android:layout_height="50dip"
         android:layout_marginStart="5dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_a7"
@@ -34,6 +35,7 @@
         android:id="@+id/imageView2"
         android:layout_width="50dip"
         android:layout_height="50dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_b1_b7"
@@ -43,6 +45,7 @@
         android:id="@+id/imageView3"
         android:layout_width="50dip"
         android:layout_height="50dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_c7_e3_e5"
@@ -52,6 +55,7 @@
         android:id="@+id/imageView4"
         android:layout_width="50dip"
         android:layout_height="50dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_d7"
@@ -61,6 +65,7 @@
         android:id="@+id/imageView5"
         android:layout_width="50dip"
         android:layout_height="50dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_e7"
@@ -70,6 +75,7 @@
         android:id="@+id/imageView6"
         android:layout_width="50dip"
         android:layout_height="50dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_f7"
@@ -79,6 +85,7 @@
         android:id="@+id/imageView7"
         android:layout_width="50dip"
         android:layout_height="50dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_g1_g7"
@@ -88,6 +95,7 @@
         android:id="@+id/imageView8"
         android:layout_width="50dip"
         android:layout_height="50dip"
+        android:layout_marginTop="20dip"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/smess_h7"
@@ -411,7 +419,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView48"
         app:layout_constraintTop_toBottomOf="@+id/imageView41"
-        app:srcCompat="@drawable/smess_c2_e2" />
+        app:srcCompat="@drawable/smess_c2_e2"
+        android:contentDescription="Square C2" />
 
     <ImageView
         android:id="@+id/imageView50"
@@ -419,7 +428,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView49"
         app:layout_constraintTop_toBottomOf="@+id/imageView42"
-        app:srcCompat="@drawable/smess_d2" />
+        app:srcCompat="@drawable/smess_d2"
+        android:contentDescription="Square D2" />
 
     <ImageView
         android:id="@+id/imageView51"
@@ -427,7 +437,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView50"
         app:layout_constraintTop_toBottomOf="@+id/imageView43"
-        app:srcCompat="@drawable/smess_c2_e2" />
+        app:srcCompat="@drawable/smess_c2_e2"
+        android:contentDescription="Square E2" />
 
     <ImageView
         android:id="@+id/imageView52"
@@ -435,7 +446,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView51"
         app:layout_constraintTop_toBottomOf="@+id/imageView44"
-        app:srcCompat="@drawable/smess_f2" />
+        app:srcCompat="@drawable/smess_f2"
+        android:contentDescription="Square F2" />
 
     <ImageView
         android:id="@+id/imageView53"
@@ -443,7 +455,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView52"
         app:layout_constraintTop_toBottomOf="@+id/imageView45"
-        app:srcCompat="@drawable/smess_g2" />
+        app:srcCompat="@drawable/smess_g2"
+        android:contentDescription="Square G2" />
 
     <ImageView
         android:id="@+id/imageView54"
@@ -451,7 +464,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView53"
         app:layout_constraintTop_toBottomOf="@+id/imageView46"
-        app:srcCompat="@drawable/smess_h2_h6" />
+        app:srcCompat="@drawable/smess_h2_h6"
+        android:contentDescription="Square H2" />
 
     <ImageView
         android:id="@+id/imageView55"
@@ -460,7 +474,8 @@
         android:layout_marginStart="5dip"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView47"
-        app:srcCompat="@drawable/smess_a1" />
+        app:srcCompat="@drawable/smess_a1"
+        android:contentDescription="Square A1" />
 
     <ImageView
         android:id="@+id/imageView56"
@@ -468,7 +483,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView55"
         app:layout_constraintTop_toBottomOf="@+id/imageView48"
-        app:srcCompat="@drawable/smess_b1_b7" />
+        app:srcCompat="@drawable/smess_b1_b7"
+        android:contentDescription="Square B1" />
 
     <ImageView
         android:id="@+id/imageView57"
@@ -476,7 +492,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView56"
         app:layout_constraintTop_toBottomOf="@+id/imageView49"
-        app:srcCompat="@drawable/smess_c1" />
+        app:srcCompat="@drawable/smess_c1"
+        android:contentDescription="Square C1" />
 
     <ImageView
         android:id="@+id/imageView58"
@@ -484,7 +501,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView57"
         app:layout_constraintTop_toBottomOf="@+id/imageView50"
-        app:srcCompat="@drawable/smess_d1" />
+        app:srcCompat="@drawable/smess_d1"
+        android:contentDescription="Square D1" />
 
     <ImageView
         android:id="@+id/imageView59"
@@ -492,7 +510,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView58"
         app:layout_constraintTop_toBottomOf="@+id/imageView51"
-        app:srcCompat="@drawable/smess_e1" />
+        app:srcCompat="@drawable/smess_e1"
+        android:contentDescription="Square E1" />
 
     <ImageView
         android:id="@+id/imageView60"
@@ -500,7 +519,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView59"
         app:layout_constraintTop_toBottomOf="@+id/imageView52"
-        app:srcCompat="@drawable/smess_d3_d5_f1" />
+        app:srcCompat="@drawable/smess_d3_d5_f1"
+        android:contentDescription="Square F1" />
 
     <ImageView
         android:id="@+id/imageView61"
@@ -508,7 +528,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView60"
         app:layout_constraintTop_toBottomOf="@+id/imageView53"
-        app:srcCompat="@drawable/smess_g1_g7" />
+        app:srcCompat="@drawable/smess_g1_g7"
+        android:contentDescription="Square G1" />
 
     <ImageView
         android:id="@+id/imageView62"
@@ -516,7 +537,8 @@
         android:layout_height="50dip"
         app:layout_constraintStart_toEndOf="@+id/imageView61"
         app:layout_constraintTop_toBottomOf="@+id/imageView54"
-        app:srcCompat="@drawable/smess_h1" />
+        app:srcCompat="@drawable/smess_h1"
+        android:contentDescription="Square H1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
